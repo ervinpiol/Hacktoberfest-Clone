@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h1-styles {
+  @apply text-[88px] sm:text-[144px] font-black font-Vanguard leading-[96px] sm:leading-[100%];
+}
+
+.h2-styles {
+  @apply text-7xl sm:text-[88px] font-black font-Vanguard leading-[72px] sm:leading-[96px];
+}
+
+.h3-styles {
+  @apply text-[32px] sm:text-7xl font-Vanguard leading-10 sm:leading-[72px];
+}
+
+.h4-styles {
+  @apply text-xl sm:text-[32px] leading-7 sm:leading-10 font-bold font-JetBrains;
+}
+
+.h5-styles {
+  @apply text-xl font-JetBrains sm:leading-7 font-medium;
+}

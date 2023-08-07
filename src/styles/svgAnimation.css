@@ -1,0 +1,121 @@
+.container-anim {
+  -webkit-animation: opacity-anim 2s infinite;
+  animation: opacity-anim 2s infinite;
+}
+
+@keyframes opacity-anim {
+  0% {
+    opacity: 1;
+  }
+
+  18% {
+    opacity: 1;
+  }
+
+  19% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  96% {
+    opacity: 1;
+  }
+
+  97% {
+    opacity: 0;
+  }
+
+  98% {
+    opacity: 1;
+  }
+}
+/* HEART */
+.heart {
+  animation: 0.5s steps(2) 0s infinite alternate none running throb;
+  filter: drop-shadow(rgba(255, 215, 77, 0.6) -1px -1px 2px)
+    drop-shadow(rgba(124, 127, 255, 0.6) 1px 1px 2px);
+}
+
+@keyframes throb {
+  from {
+    -webkit-transform: translatex(0px);
+    -ms-transform: translatex(0px);
+    transform: translatex(0px);
+  }
+
+  to {
+    -webkit-transform: translatex(-240px);
+    -ms-transform: translatex(-240px);
+    transform: translatex(-240px);
+  }
+}
+
+/* PARTICIPATION */
+.participation-anim {
+  animation: 1.5s steps(4) 0s infinite normal none running participation-anim;
+}
+@keyframes participation-anim {
+  from {
+    -webkit-transform: translatex(0px);
+    -ms-transform: translatex(0px);
+    transform: translatex(0px);
+  }
+
+  to {
+    -webkit-transform: translatex(-480px);
+    -ms-transform: translatex(-480px);
+    transform: translatex(-480px);
+  }
+}
+
+/* EVENTS */
+.events-anim {
+  position: absolute;
+  animation: 5s steps(24) 0s infinite normal none running run-anim;
+}
+
+@keyframes run-anim {
+  from {
+    -webkit-transform: translatex(0px);
+    -ms-transform: translatex(0px);
+    transform: translatex(0px);
+  }
+
+  to {
+    -webkit-transform: translatex(-123px);
+    -ms-transform: translatex(-123px);
+    transform: translatex(-123px);
+  }
+}
+
+/* DONATE */
+.donate-anim {
+  animation: 3s steps(9) 0s infinite alternate none running donate;
+}
+@keyframes donate {
+  0% {
+    -webkit-transform: translatex(0px);
+    -ms-transform: translatex(0px);
+    transform: translatex(0px);
+  }
+  100% {
+    -webkit-transform: translatex(-1080px);
+    -ms-transform: translatex(-1080px);
+    transform: translatex(-1080px);
+  }
+}
+
+/* ABOUT */
+.wave {
+  position: absolute;
+  animation: 4s steps(16) 0s infinite normal none running run-anim;
+  bottom: 3px;
+}
+
+.about-anim {
+  -webkit-animation: about 3s steps(9) infinite alternate;
+  animation: about 3s steps(9) infinite alternate;
+}

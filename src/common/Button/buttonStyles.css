@@ -1,0 +1,52 @@
+.button-style {
+  clip-path: polygon(
+    12px 0px,
+    100% 0px,
+    100% 72%,
+    calc(100% - 12px) 100%,
+    0px 100%,
+    0px 12px
+  );
+  transition: all 0.2s ease 0s;
+  padding: 8px 18px;
+}
+
+.gradient-button {
+  background: linear-gradient(90deg, #ffd74d 0%, #40ddff 30%, #7c7fff 85%);
+  color: rgb(23, 15, 30);
+  -webkit-animation: 1.5s ease infinite alternate running bg-gradient;
+  animation: 1.5s ease infinite alternate running bg-gradient;
+  background: linear-gradient(90deg, #ffd74d 0%, #40ddff 30%, #7c7fff 85%);
+  background-size: 200% 100%;
+  overflow: hidden;
+}
+@keyframes bg-gradient {
+  to {
+    background-size: 100% 100%;
+  }
+}
+
+.dark-button {
+  background: rgb(23, 15, 30);
+}
+
+.pink_button {
+  background: rgb(234, 74, 170);
+  color: rgb(23, 15, 30);
+}
+
+.gb-parent {
+  filter: drop-shadow(rgba(255, 215, 77, 0.6) -1px -1px 2px)
+    drop-shadow(rgba(124, 127, 255, 0.6) 1px 1px 2px);
+}
+
+.db-parent:hover {
+  filter: drop-shadow(rgba(255, 215, 77, 0.6) -1px -1px 2px)
+    drop-shadow(rgba(124, 127, 255, 0.6) 1px 1px 2px);
+}
+
+.pb-parent {
+  filter: drop-shadow(rgba(255, 215, 77, 0.6) -1px -1px 2px)
+    drop-shadow(rgba(124, 127, 255, 0.6) 1px 1px 2px);
+  opacity: 0.7;
+}
