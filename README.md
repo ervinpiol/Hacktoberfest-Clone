@@ -1,3 +1,3 @@
 Hacktoberfest Clone
 
-Live Site: https://hacktoberfest-clone.netlify.app/
+<a href="https://hacktoberfest-clone.netlify.app/" target="_blank">Live Site</a>
